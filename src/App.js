@@ -1,11 +1,12 @@
-import { useState } from "react";
+import ContactsList from "./client/ContactsList";
 
 function App() {
-  const [user, setUser] = useState('Vasa');
 
   return (
     <>
       <h1>Hello fullstack developer!!</h1>
+
+      <ContactsList />
     </>
   );
 }
