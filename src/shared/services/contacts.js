@@ -5,7 +5,7 @@ import axios from "axios"
 // })
 
 export const getContacts = async () => {
-  const { data } = await axios.get("http://localhost:8888/contacts");
+  const { data } = await axios.get("https://calm-gecko-cac335.netlify.app//contacts");
   console.log(data)
   return data;
 }
